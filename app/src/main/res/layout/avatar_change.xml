@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AvatarChange">
+
+    <com.example.jingnews.circle.CircleImageView
+        android:background="@drawable/defau"
+        android:id="@+id/a0"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        tools:ignore="MissingConstraints" />
+
+
+
+    <LinearLayout
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="3dp"
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:background="@drawable/avatar1"
+            android:id="@+id/a1"
+            android:layout_width="80dp"
+            android:layout_height="80dp"/>
+        <ImageView
+            android:background="@drawable/avatar2"
+            android:id="@+id/a2"
+            android:layout_marginLeft="10dp"
+            android:layout_width="80dp"
+            android:layout_height="80dp"/>
+        <ImageView
+            android:background="@drawable/avatar3"
+            android:id="@+id/a3"
+            android:layout_marginLeft="10dp"
+            android:layout_width="80dp"
+            android:layout_height="80dp"/>
+        <ImageView
+            android:background="@drawable/avatar4"
+            android:id="@+id/a4"
+            android:layout_marginLeft="10dp"
+            android:layout_width="80dp"
+            android:layout_height="80dp"/>
+       </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="3dp"
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:background="@drawable/avatar7"
+            android:id="@+id/a7"
+            android:layout_width="80dp"
+            android:layout_height="80dp"/>
+        <ImageView
+            android:background="@drawable/avatar8"
+            android:id="@+id/a8"
+            android:layout_marginLeft="10dp"
+            android:layout_width="80dp"
+            android:layout_height="80dp"/>
+        <ImageView
+            android:background="@drawable/avatar9"
+            android:id="@+id/a9"
+            android:layout_marginLeft="10dp"
+            android:layout_width="80dp"
+            android:layout_height="80dp"/>
+        <ImageView
+            android:background="@drawable/avatar10"
+            android:id="@+id/a10"
+            android:layout_marginLeft="10dp"
+            android:layout_width="80dp"
+            android:layout_height="80dp"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="3dp"
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:background="@drawable/avatar11"
+            android:id="@+id/a11"
+            android:layout_width="80dp"
+            android:layout_height="80dp"/>
+        <ImageView
+            android:background="@drawable/avatar12"
+            android:id="@+id/a12"
+            android:layout_marginLeft="10dp"
+            android:layout_width="80dp"
+            android:layout_height="80dp"/>
+        <ImageView
+            android:background="@drawable/avatar13"
+            android:id="@+id/a13"
+            android:layout_marginLeft="10dp"
+            android:layout_width="80dp"
+            android:layout_height="80dp"/>
+        <ImageView
+            android:background="@drawable/avatar14"
+            android:id="@+id/a14"
+            android:layout_marginLeft="10dp"
+            android:layout_width="80dp"
+            android:layout_height="80dp"/>
+    </LinearLayout>
+
+
+</LinearLayout>

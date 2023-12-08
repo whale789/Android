@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AboutMy">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        tools:ignore="MissingConstraints">
+
+        <ImageView
+            android:layout_marginLeft="105dp"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:layout_gravity="center"
+            android:src="@drawable/news" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="JingNews"
+            android:textColor="#851346C6"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_marginLeft="30dp"
+            android:text="产品介绍"
+            android:textStyle="bold"
+            android:textSize="30sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:text="        JingNews是一款自主开发打造的新闻软件，以“Make messages faster,Make delivery wider”（让消息更快，让传播更广）为主旨，志在打造一款更便于用户使用的即时新闻软件，目前仍处于测试阶段，其中包含了政治、疫情、军事、财经等多方面内容，从用户的视角出发，对整体的软件进行不断的完善，开发阶段也进行了多次修改，得以面向各位用户，欢迎您加入我们的用户体验计划。"
+            android:layout_marginLeft="30dp"
+            android:textSize="20sp"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:text="研发团队"
+            android:layout_marginLeft="30dp"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:layout_width="349dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:text="        张乾/516软件工作室"
+            android:textSize="20sp" />
+        <TextView
+            android:text="研发时间"
+            android:layout_marginLeft="30dp"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:layout_width="349dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:text="        2022年3月29日"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+</LinearLayout>

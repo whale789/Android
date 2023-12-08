@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/layout0"
+    android:background="@color/white"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appbar"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:fitsSystemWindows="true">
+
+            <androidx.appcompat.widget.Toolbar
+                app:layout_scrollFlags="scroll|enterAlways"
+                android:id="@+id/tb"
+                android:layout_width="395dp"
+                android:layout_height="?attr/actionBarSize"
+                android:background="#CB06F7FF">
+
+                <ImageView
+                    android:id="@+id/meun"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:background="@drawable/news"
+                    android:onClick="person" />
+
+                <TextView
+                    android:id="@+id/tv"
+                    android:layout_width="200dp"
+                    android:layout_height="35dp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:text="Jing News"
+                    android:textColor="#851346C6"
+                    android:textSize="25dp"
+                    android:textStyle="bold|italic" />
+            </androidx.appcompat.widget.Toolbar>
+
+        <com.google.android.material.tabs.TabLayout
+            android:id="@+id/tabs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            app:tabMode="scrollable">
+
+            <com.google.android.material.tabs.TabItem
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="Tab1" />
+
+            <com.google.android.material.tabs.TabItem
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="Tab2" />
+
+            <com.google.android.material.tabs.TabItem
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="Tab3" />
+
+            <com.google.android.material.tabs.TabItem
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="Tab4" />
+
+            <com.google.android.material.tabs.TabItem
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="Tab5" />
+        </com.google.android.material.tabs.TabLayout>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:scrollbars="none"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <androidx.viewpager2.widget.ViewPager2
+            android:id="@+id/viewpager2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+        </androidx.viewpager2.widget.ViewPager2>
+    </androidx.core.widget.NestedScrollView>
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
